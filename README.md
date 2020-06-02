@@ -79,7 +79,7 @@ There are two ways to use interactive login:
 * **Interactive Pop-up** - The device the user is using will see a prompt appear and will use that prompt. This document does not cover this case yet.
 * **Interactive Device code** - The device the user is using will NOT see a prompt. This is useful in those cases when, for example, it is not possible to show a prompt. 
 
-### Authenticate interactively with a device code
+### Authenticate interactively with a Pop-up
 
 This option is used when you want to have a browser popup appear when the user signs in to your application, showing an AAD login form. From this interactive popup, your application will receive the tokens necessary to use the Data Lake Analytics Python SDK on behalf of the user.
 
